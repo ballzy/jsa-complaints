@@ -253,3 +253,14 @@ textarea {
 
 .form-label-bold.add-padding {
   margin-bottom: 0.83333em; }
+
+  .alert-message {
+    display: block;
+    overflow: hidden;
+}
+
+.alert-complete {
+    background-color: #28a197;
+    border-color: #28a197;
+    color: #fff;
+}

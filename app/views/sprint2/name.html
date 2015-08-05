@@ -1,0 +1,72 @@
+{{<layout}}
+
+{{$pageTitle}}
+Jobseeker's Allowance (JSA)
+{{/pageTitle}}
+
+{{$content}}
+
+<main id="content" role="main">
+  {{>includes/alpha-banner}}
+
+<br>
+
+<span class="section-progress">Section 3 of 3</span>
+
+<div>
+        <h2 class="heading-large">Jobseeker's Allowance complaints</h2>
+</div>
+
+  <fieldset class="inline">
+    <legend>
+      <span class="form-label-bold">
+        Do you want a response when your complaint's been dealt with?
+      </span>
+    </legend>
+
+    <div class="form-group form-group-compound">
+      <label class="block-label" data-target="example-ni-no" for="radio-indent-1">
+        <input id="radio-indent-1" type="radio" name="radio-indent-group" value="Yes">
+        Yes
+      </label>
+      <label class="block-label" for="radio-indent-2">
+        <input id="radio-indent-2" type="radio" name="radio-indent-group" value="No">
+        No
+      </label>
+    </div>
+
+    <div class="panel-indent js-hidden" id="example-ni-no">
+
+	<div class="form-group">
+    	<label class="form-label" for="name">Name</label>
+    	<input class="form-control" id="name" type="text">
+    </div>
+
+    <div class="form-group">
+    	<label class="form-label" for="ni-number">National Insurance Number</label>
+    	<input class="form-control" id="ni-number" type="text">
+    </div>
+
+    <div class="form-group">
+    	<label class="form-label" for="phone-number">Phone number</label>
+    	<input class="form-control" id="phone-number" type="text">
+    </div>
+    </div>
+
+  </fieldset>
+
+
+
+      <!-- Primary buttons, secondary links -->
+    
+   
+
+    <div>
+      <a href="/sprint2/sent" class="button" role="button">Send complaint</a>
+    </div>
+    
+</main>
+
+{{/content}}
+
+{{/layout}}
