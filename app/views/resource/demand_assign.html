@@ -1,0 +1,119 @@
+{{<layout}}
+
+{{$pageTitle}}
+  GOV.UK prototyping kit
+{{/pageTitle}}
+
+{{$propositionHeader}}
+  {{>includes/propositional_navigation}}
+{{/propositionHeader}}
+
+{{$content}}
+
+
+<main id="content" role="main">
+
+ <div class="grid-row">        
+
+         <div class="column-quarter grid-col" style="padding-bottom:90px; padding-top:30px; margin-left:-40px">
+              <ul class="main-nav">
+                <li id="nav-home"><a href="logged_in">Home</a></li>
+                <li id="nav-demand" class="selected"><a href="demand">Demand log</a></li>
+                <li id="nav-unassigned"><a href="assigned">Assigned</a></li>
+                <li id="nav-assigned"><a href="#">Unassigned</a></li>
+                <li id="nav-projects"><a href="#">Current projects</a></li>
+                <li id="nav-reports"><a href="#">Reports</a></li>
+              </ul>
+          </div>
+
+
+  <!-- Start three quarters container for main content columns -->
+  <div class="column-three-quarters">
+
+
+        <p class="font-xsmall bread"><a href="logged_in">Home</a>&nbsp;>&nbsp;Demand log</p> 
+
+         <h1 class="heading-large">&nbsp;&nbsp;Demand log - Access to Work - Beta</h1>
+         <!-- <h2 class="bold-medium">If you have not done so already, below is a list of things we would like you to do before your jobseeker interview to improve your chances of finding work quickly.</h2> -->
+
+      <ul class="tabs">
+            <li><a href="demand">Basic search</a></li>
+            <li><a class="disabled" href="#">Edit record</a></li>
+            <li class="selected"><a href="demand_assign">Assign resource</a></li> 
+         </ul> 
+
+  <div class="column"> 
+
+<div class="column-half">
+
+    <h3 class="heading-medium">Assign Resource</h3> 
+
+    <br>
+
+
+    <div>
+
+                     <table>
+                          <thead>
+                            <tr>
+                              <th scope="col">Job role</th>
+                              <th scope="col"></th>
+                              <th></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>Product Owner</td>
+                                  <td><span class="assign"><a href="demand_product_owner" style="color: white;text-decoration:none;">Assign</a></td>
+                                  <td><span class="remove"><a href="#" style="color: white; text-decoration:none;">Remove role</a></span></td>
+                              </tr>
+
+                              <tr>
+                                  <td>Delivery Manager</td>
+                                  <td><span class="assign"><a href="demand_assign_delivery" style="color: white;text-decoration:none;">Assign</a></span></td>
+                                  <td><span class="remove"><a href="#" style="color: white; text-decoration:none;">Remove role</a></span></td>
+                              </tr>
+                              <tr>
+                                  <td>Business Analyst</td>
+                                  <td><span class="assign"><a href="#" style="color: white;text-decoration:none;">Assign</a></span></td>
+                                  <td><span class="remove"><a href="#" style="color: white; text-decoration:none;">Remove role</a></span></td>
+                              </tr>
+                              <tr>
+                                  <td>User researcher</td>
+                                  <td><span class="assign"><a href="#" style="color: white;text-decoration:none;">Assign</a></span></td>
+                                  <td><span class="remove"><a href="#" style="color: white; text-decoration:none;">Remove role</a></span></td>
+                              </tr>
+                              <tr>
+                                  <td>Add a new role</td>
+                                  <td></td>
+                                  <td></td>
+                              </tr> 
+                          </tbody>
+                      </table> 
+
+          </div>
+
+          <br>
+          <br> 
+
+    </div>
+
+                      <br>
+                      <br>
+
+         
+      </div>
+      <!-- End col -->
+
+
+
+
+    <!-- End row-->       
+      </div>
+
+
+</main>
+{{/content}}
+
+{{/layout}}
+

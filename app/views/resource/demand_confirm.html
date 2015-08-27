@@ -1,0 +1,119 @@
+{{<layout}}
+
+{{$pageTitle}}
+  GOV.UK prototyping kit
+{{/pageTitle}}
+
+{{$propositionHeader}}
+  {{>includes/propositional_navigation}}
+{{/propositionHeader}}
+
+{{$content}}
+
+
+<main id="content" role="main">
+
+ <div class="grid-row">        
+
+           <div class="column-quarter grid-col" style="padding-bottom:90px; padding-top:30px; margin-left:-40px">
+              <ul class="main-nav">
+                <li id="nav-home"><a href="logged_in">Home</a></li>
+                <li id="nav-demand" class="selected"><a href="demand">Demand log</a></li>
+                <li id="nav-unassigned"><a href="assigned">Assigned</a></li>
+                <li id="nav-assigned"><a href="#">Unassigned</a></li>
+                <li id="nav-projects"><a href="#">Current projects</a></li>
+                <li id="nav-reports"><a href="#">Reports</a></li>
+              </ul>
+          </div>
+
+  <!-- Start three quarters container for main content columns -->
+  <div class="column-three-quarters">
+
+
+        <p class="font-xsmall bread"><a href="logged_in">Home</a>&nbsp;>&nbsp;<a href="demand">Demand log</a>&nbsp;>&nbsp;
+          <a href="demand_edit">Record entry</a>&nbsp;>&nbsp;Confirm entry</p> 
+
+         <h1 class="heading-large">&nbsp;&nbsp;Demand log - Lily Carr - confirm entry</h1>
+         <!-- <h2 class="bold-medium">If you have not done so already, below is a list of things we would like you to do before your jobseeker interview to improve your chances of finding work quickly.</h2> -->
+
+   <!--      <ul class="tabs">
+            <li>Nav item</li>
+            <li class="selected">Selected nav item</li>
+            <li>Nav item</li>
+         </ul> -->
+
+
+      <div class="column-half">   
+
+        <br>
+
+           <div>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td>Lily Carr</td>
+                    </tr>
+                   <tr>
+                    <td>Initial date of contact:</td>
+                        <td>02/09/2015</td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>lily.carr@DWP.GSI.GOV.UK</td>
+                    </tr>
+                    <tr>
+                        <td>Phone number:</td>
+                        <td>07949414097</td>
+                    </tr>
+                    <tr>
+                        <td>Location:</td>
+                        <td>Leeds</td>
+                    </tr>
+                    <tr>
+                        <td>Methodology:</td>
+                        <td>Agile</td>
+                    </tr>
+                    <tr>
+                        <td>Phase:</td>
+                        <td>Alpha</td>
+                    </tr>
+                    <tr>
+                        <td>Size:</td>
+                        <td>Small</td>
+                    </tr>
+                </table>
+           </div> 
+
+          <br>
+          <br>
+     
+            <div class="form-group" id="get-started">
+                  <a href="demand" class="button button-get-started" value="Payment">Confirm entry</a>
+             </div>
+
+            <nav class="back-nav" role="navigation">
+               <a id="backButton" onclick="window.history.go(-1); return false;">Back</a> 
+            </nav>
+
+            <br>            
+         
+      </div>
+      <!-- End col -->
+
+      <!-- Start col -->      
+      <div class="column-half">    
+       
+       
+
+       <!-- End column-->       
+       </div>
+
+    <!-- End row-->       
+      </div>
+
+
+</main>
+{{/content}}
+
+{{/layout}}
+

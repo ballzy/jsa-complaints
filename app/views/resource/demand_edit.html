@@ -1,0 +1,149 @@
+{{<layout}}
+
+{{$pageTitle}}
+  GOV.UK prototyping kit
+{{/pageTitle}}
+
+{{$propositionHeader}}
+  {{>includes/propositional_navigation}}
+{{/propositionHeader}}
+
+{{$content}}
+
+
+<main id="content" role="main">
+
+ <div class="grid-row">        
+
+           <div class="column-quarter grid-col" style="padding-bottom:90px; padding-top:30px; margin-left:-40px">
+              <ul class="main-nav">
+                <li id="nav-home"><a href="logged_in">Home</a></li>
+                <li id="nav-demand" class="selected"><a href="demand">Demand log</a></li>
+                <li id="nav-unassigned"><a href="assigned">Assigned</a></li>
+                <li id="nav-assigned"><a href="#">Unassigned</a></li>
+                <li id="nav-projects"><a href="#">Current projects</a></li>
+                <li id="nav-reports"><a href="#">Reports</a></li>
+              </ul>
+          </div>
+
+  <!-- Start three quarters container for main content columns -->
+  <div class="column-three-quarters">
+
+
+        <p class="font-xsmall bread"><a href="logged_in">Home</a>&nbsp;>&nbsp;<a href="demand">Demand log</a></p> 
+
+         <h1 class="heading-large">&nbsp;&nbsp;Demand log - Abby Carr</h1>
+         <!-- <h2 class="bold-medium">If you have not done so already, below is a list of things we would like you to do before your jobseeker interview to improve your chances of finding work quickly.</h2> -->
+
+       <ul class="tabs">
+            <li><a href="demand">Basic search</a></li>
+            <li class="selected"><a href="#">Edit record</a></li>
+            <li><a class="disabled" href="#">Assign resource</a></li>          
+         </ul>    
+
+ <div class="column-half">    
+
+         <br>
+
+            <div class="form-group">
+                  <label class="form-hint" for="idoc">Name (read-only)</label>
+                  <input class="form-control" id="idoc" type="text" value="Abby Carr" readonly>
+             </div>  
+
+            <div class="form-group">
+                  <label class="form-hint" for="idoc">Initial date of contact (read-only)</label>
+                  <input class="form-control" id="idoc" type="text" value="02/09/2015" readonly>
+             </div>  
+
+            <div class="form-group">
+              <label class="form-label" for="inital">Email</label>
+              <input class="form-control" id="inital" type="text">
+            </div> 
+
+           <div class="form-group">
+              <label class="form-label" for="inital">Phone number</label>
+              <input class="form-control" id="inital" type="text">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="Location">Location</label>
+                    <select class="select form-control">
+                      <option>-- Please make a selection --</option>
+                      <option value="Burnley">Burnley</option>
+                      <option value="Leeds">Leeds</option>
+                      <option value="London">London</option>
+                      <option value="Manchester">Manchester</option>
+                      <option value="Newcastle">Newcastle</option>
+
+                    </select> 
+            </div> 
+
+      </div>
+      <!-- End col -->
+
+      <!-- Start col -->      
+      <div class="column-half">    
+          
+          <br>
+
+            <div class="form-group">
+                  <label class="form-hint" for="idoc">Project (read-only)</label>
+                  <input class="form-control" id="idoc" type="text" value="Access to Work" readonly>
+             </div>
+
+            <div class="form-group">
+                <label class="form-label" for="method">Methodology</label>
+                    <select class="select form-control">
+                      <option>-- Please make a selection --</option>
+                      <option value="Agile">Agile</option>
+                      <option value="Waterfall">Waterfall</option>
+                    </select> 
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="title">Phase</label>
+                    <select class="select form-control">
+                      <option>-- Please make a selection --</option>
+                      <option value="Discovery">Discovery</option>
+                      <option value="Alpha">Alpha</option>
+                      <option value="Beta">Beta</option>
+                      <option value="Live">Live</option>          
+                    </select> 
+            </div> 
+
+            <div class="form-group">
+                <label class="form-label" for="size">Size</label>
+                    <select class="select form-control">
+                      <option>-- Please make a selection --</option>
+                      <option value="Small">Small</option>
+                      <option value="Medium">Medium</option>
+                      <option value="Large">Large</option>
+                    </select> 
+            </div>   
+
+       <!-- End column-->       
+       </div>
+
+      <div class="column">
+        
+      <div>
+        <a href="demand_holding" class="button button" value="Submit">Submit</a>
+      </div>
+
+
+                </div>
+
+  <!-- End three quarters column-->       
+   </div>  
+
+ 
+
+    <!-- End row-->       
+      </div>
+
+
+</main>
+{{/content}}
+
+{{/layout}}
+

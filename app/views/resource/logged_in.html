@@ -1,0 +1,73 @@
+{{<layout}}
+
+{{$pageTitle}}
+  GOV.UK prototyping kit
+{{/pageTitle}}
+
+{{$propositionHeader}}
+  {{>includes/propositional_navigation}}
+{{/propositionHeader}}
+
+{{$content}}
+
+
+<main id="content" role="main">
+
+ <div class="grid-row">        
+
+         <div class="column-quarter grid-col" style="padding-bottom:90px; padding-top:30px; margin-left:-40px">
+              <ul class="main-nav">
+                <li id="nav-home" class="selected"><a href="login">Home</a></li>
+                <li id="nav-demand"><a href="demand">Demand log</a></li>
+                <li id="nav-unassigned"><a href="assigned">Assigned</a></li>
+                <li id="nav-assigned"><a href="#">Unassigned</a></li>
+                <li id="nav-projects"><a href="#">Current projects</a></li>
+                <li id="nav-reports"><a href="#">Reports</a></li>
+              </ul>
+          </div>
+
+
+  <!-- Start three quarters container for main content columns -->
+  <div class="column-three-quarters">
+
+
+        <p class="font-xsmall bread">Home&nbsp;></p> 
+
+            <div class="column">   
+
+                <h1 class="heading-large">Log-in successful</h1>
+                <h2>Please choose from the following options:</h2>
+
+                        <h2 class="heading-medium">Demand log</h2>
+                        <p><a href="demand">See what requests for resource have landed</a></p>
+                        <h2 class="heading-medium">Assigned</h2>
+                        <p><a href="assigned">See what resource we currently have assigned to a project</a></p>
+                        <h2 class="heading-medium">Unassigned</h2>
+                        <p><a href="benefit"><a href="#">See what resource we currently have available for assignment</a></p>
+                        <h2 class="heading-medium">Current projects</h2>
+                        <p><a href="#">See what projects we currently have in flight</a></p>
+                        <h2 class="heading-medium">Reports</h2>
+                        <p><a href="#">Cut the data in a number of ways</a></p>
+
+                   <br>     
+                   <nav class="back-nav" role="navigation">
+                     <a id="backButton" onclick="window.history.go(-1); return false;">Back</a> 
+                  </nav>
+                  <br>
+
+            </div>     
+            <!-- End 1/2 col -->
+         
+      </div>
+      <!-- End 3/4 col -->
+
+
+    <!-- End row-->       
+      </div>
+
+
+</main>
+{{/content}}
+
+{{/layout}}
+
