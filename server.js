@@ -67,3 +67,7 @@ app.listen(port);
 console.log('');
 console.log('Listening on port ' + port);
 console.log('');
+
+http.listen(process.env.PORT || 3000, function(){
+  console.log('listening on', http.address().port);
+});
