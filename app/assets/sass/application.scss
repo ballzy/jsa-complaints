@@ -265,5 +265,151 @@ textarea {
     color: #fff;
 }
 
+header.page-header .hgroup {
+    background-color: transparent;
+}
+
+header.page-header .hgroup {
+    padding: 0;
+}
+
+.homepage header.page-header .hgroup {
+    padding: 0;
+}
+
+header.page-header .hgroup h1 {
+    font-family: "nta",Arial,sans-serif;
+    font-size: 48px;
+    line-height: 1.04167;
+    font-weight: 700;
+    text-transform: none;
+    color: #0b0c0c;
+    padding-top: 0.7rem;
+    padding-bottom: 1.3rem;
+}
+
+header.page-header .hgroup h2.subtitle {
+    margin: 0;
+    color: #6f777b;
+    font-family: "nta",Arial,sans-serif;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.homepage header.page-header .hgroup {
+    padding: 0;
+}
 
 
+.phase-banner-alpha .phase-tag {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 8px 0 0;
+  padding: 2px 5px 0;
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 700;
+  text-transform: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #d53880;
+}
+
+element.style {
+  background-color: #F8BEBF;
+  width: 50%;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: -1em;
+  border: solid;
+  border-color: #D50003;
+}
+
+ul.phases {
+    list-style: none;
+    margin: 2em 0;
+    padding: 0 0 2em 0;
+    border-bottom: 1px solid #bfc1c3;
+}
+
+ul.phases .discovery h3 {
+    background-color: #912b88;
+}
+
+ul.phases li:first-child {
+    margin-left: 0;
+}
+
+ul.phases h3 {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 700;
+    text-transform: none;
+    margin: 0;
+    padding: 0.2em 0;
+    color: white;
+    background-color: #dee0e2;
+}
+
+ul.phases .discovery .phase-count {
+    color: #912b88;
+}
+
+ul.phases .phase-count {
+    color: #6f777b;
+    margin: 0.2em 0;
+}
+
+.lrg-number {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: none;
+    display: block;
+}
+
+ul.phases li {
+    display: block;
+    padding: 0 0 1em 0;
+    margin-left: 0;
+    text-align: center;
+}
+
+ul.phases li {
+    width: 23%;
+    float: left;
+    padding: 0;
+    margin: 0 0.66667%;
+}
+
+ul.phases .alpha h3 {
+    background-color: #d53880;
+}
+
+ul.phases .alpha .phase-count {
+    color: #d53880;
+}
+
+ul.phases .beta h3 {
+    background-color: #f47738;
+}
+
+ul.phases .beta .phase-count {
+    color: #f47738;
+}
+
+ul.phases .live h3 {
+    background-color: #85994b;
+}
+
+ul.phases .live .phase-count {
+    color: #85994b;
+}
