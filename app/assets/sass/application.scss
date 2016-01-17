@@ -413,3 +413,135 @@ ul.phases .live h3 {
 ul.phases .live .phase-count {
     color: #85994b;
 }
+
+.form-control {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "nta", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none;
+    width: 10%;
+    padding: 4px;
+    background-color: #fff;
+    border: 2px solid #6f777b;
+}
+
+.form-control-login {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "nta", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none;
+    width: 75%;
+    padding: 4px;
+    background-color: #fff;
+    border: 2px solid #6f777b;
+}
+
+.appstatus {
+    background-color: #005ea5;
+    color: #fff;
+    margin-bottom: 1.05263em;
+    padding: 2em 2em .94737em 2em;
+}
+
+.appstatus-title {
+    font-family: "nta",Arial,sans-serif;
+    font-size: 45px;
+    line-height: 1.04167;
+    font-weight: 700;
+    text-transform: none;
+    margin-bottom: .625em;
+}
+
+.lede {
+    font-family: "nta",Arial,sans-serif;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.appstatus-steps .appstatus-complete {
+    color: #fff;
+}
+
+.appstatus-steps span {
+    border-bottom: 3px solid #2b8cc4;
+    color: #2b8cc4;
+    display: block;
+    font-weight: bold;
+    padding: 10px 0;
+    vertical-align: middle;
+    width: 100%;
+    padding-bottom: 35px;
+}
+
+.appstatus-steps span-problem-solving {
+    border-bottom: 3px solid #2b8cc4;
+    color: #2b8cc4;
+    display: block;
+    font-weight: bold;
+    padding: 10px 0;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.appstatus-steps span-managing-information {
+    border-bottom: 3px solid #2b8cc4;
+    color: #2b8cc4;
+    display: block;
+    font-weight: bold;
+    padding: 10px 0;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.appstatus-steps span-managing-information-complete {
+    border-bottom: 3px solid #2b8cc4;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    padding: 10px 0;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.appstatus-steps li {
+    display: table-cell;
+    padding: 0 .52632em;
+    width: 10%;
+}
+
+.appstatus-steps .appstatus-processing {
+    border-color: #fff;
+    border-bottom-width: 6px;
+    color: #fff;
+    padding-bottom: 7px;
+}
+
+.appstatus-steps .appstatus-processing-communications {
+    border-color: #fff;
+    border-bottom-width: 6px;
+    color: #fff;
+    padding-bottom: 33px;
+}
+
+.appstatus-steps .appstatus-complete {
+    color: #fff;
+}
+
+.appstatus-steps span img {
+    height: 22px;
+    margin-left: 5px;
+    vertical-align: text-top;
+    width: 22px;
+}
+
+
