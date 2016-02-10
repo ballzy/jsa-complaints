@@ -6,11 +6,17 @@ Jobseeker's Allowance (JSA)
 
 {{$content}}
 
+<br>
+<br>
+
 <main id="content" role="main">
-  {{>includes/alpha-banner}}
-  
+
+<div class="logo">
+                <span class="organisation-logo">Department for Work &amp; Pensions</span>
+</div>
+
 <div>
-        <h2 class="heading-large">Jobseeker's Allowance complaints</h2>
+        <h2 class="heading-large">Jobseeker's Allowance complaints and Universal Credit Complaints</h2>
 </div>
 
 <div>        
@@ -36,6 +42,29 @@ Jobseeker's Allowance (JSA)
     <label class="form-label" for="phone-number">Phone number</label>
     <input class="form-control" id="phone-number" type="text">
   </div>
+
+<!--***JSA or UC***-->  
+<fieldset>
+  <legend class="add-padding" for="type-complaint-jsa">
+            Is your complaint about Jobseeker’s Allowance or Universal Credit?
+  </legend>
+
+<div class="form-group">
+            <span class="validation-message"></span>
+
+            <label class="block-label" for="complaintForJsa">
+                <input onclick="ga('send','event','JSA or UC','JSA','N/A');" id="complaintForJsa" type="radio" name="complaint-for-JSA-or-UC" value="JSA" class="js-toggle" aria-required="true" aria-owns="complaintSA" data-sub-title="(jsa)">
+                Jobseeker’s Allowance
+            </label>
+
+            <label class="block-label" for="complaintForUc">
+                <input onclick="ga('send','event','JSA or UC','UC','N/A');" id="complaintForUc" type="radio" name="complaint-for-JSA-or-UC" value="UC" class="js-toggle" aria-required="true" aria-owns="complaintUC" data-sub-title="(uc)">
+                Universal Credit
+            </label>
+
+        </div>
+</fieldset>
+
 
   <!--***DROP DOWN***-->
 

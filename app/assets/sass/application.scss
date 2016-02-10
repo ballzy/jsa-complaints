@@ -423,7 +423,7 @@ ul.phases .live .phase-count {
     line-height: 1.25;
     font-weight: 400;
     text-transform: none;
-    width: 10%;
+    width: 35%;
     padding: 4px;
     background-color: #fff;
     border: 2px solid #6f777b;
@@ -564,4 +564,13 @@ ul.phases .live .phase-count {
     margin-bottom: 10px;
 }
 
+.organisation-logo {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 3px 0 2px 2px;
+    background-position: 6px center;
+    background-repeat: no-repeat;
+    background-size: auto 25px;
+    border-left: 2px solid #009390;
+}
 
